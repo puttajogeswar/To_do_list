@@ -1,0 +1,103 @@
+/* General container styling */
+div {
+  
+  text-align: center;
+  margin: 50px;
+}
+
+/* Form styling */
+form {
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* To-do list styling */
+/* Center the entire task list on the page */
+body {
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #f0f0f0;
+}
+
+.data {
+  width: 100%;
+  
+  padding: 0px;
+}
+
+/* Remove list styling and spacing */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header row styling */
+.task-header {
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  background-color: #004080;
+  color: white;
+}
+
+/* Task item styling */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background-color: #3399ff;
+  color: white;
+  margin-bottom: 8px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+/* Column styling */
+.sno {
+  width: 60px;
+  
+}
+
+.name {
+  flex-grow: 1;
+}
+
+/* delete button style */
+.delete{
+  background: rgb(241, 66, 66);
+}
+.delete:hover{
+  background: red;
+}
